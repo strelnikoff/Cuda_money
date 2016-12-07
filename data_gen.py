@@ -90,5 +90,5 @@ if __name__ == "__main__":
     images=get_images_by_point(image, circles)
     out=[]
     for img in images:
-        out.extend(get_more_img(img, save_way))
-    save_images_from_list(out)
+        out.extend(get_more_img(img))
+    save_images_from_list(out, save_way)
